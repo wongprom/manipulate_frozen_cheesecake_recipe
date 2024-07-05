@@ -1,6 +1,34 @@
+# Recipe DOM Fixer
+
+This project involves a series of exercises focused on manipulating and retrieving data from the DOM using JavaScript.
+
+<figure><img src="./assets/wrong.png"></figure>
+TO
+<figure><img src="./assets/right.png"></figure>
+
+[Go To Exercises on DOM Manipulation Part 1](#exercises-on-dom-manipulation-part-1)
+
+[Go To Exercises in DOM manipulation Part 2](#exercises-in-dom-manipulation-part-2)
+
+## My Solution
+
+```js
+
+```
+
+...
+
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+
 ## Exercises on DOM Manipulation Part 1
 
-### Getting data from the DOM. 
+### Getting data from the DOM.
 
 #### In this exercise you will try and get some data from the provided recipe website. Fire up the index.html on your live server.
 
@@ -42,7 +70,7 @@ https://www.w3schools.com/jsref/dom_obj_all.asp
 
 1. The logo text of the site has the wrong color. Change it to the correct one.
 2. The alignment of the elements inside the header element are wrong. Change it to the correct one. `Hint`, check the flex properties for the correct alignment. Here is a link that might help:
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+   https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 3. The header has a border at the bottom, but it has the wrong color. Change it do the correct one.
 4. The recipe name is wrong, change it to the correct one.
 5. The clock icon beneath the recipe name has disappeared and been replaced by a text instead. This can be fixed by adding a class to that element.
