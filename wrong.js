@@ -39,14 +39,14 @@ const ingredientsListBottom = document.querySelector(
 const removeThisP = ingredientsListBottom.querySelector('p');
 ingredientsListBottom.removeChild(removeThisP);
 
-// Create the first new <p> element
-// const newLiDigistive = `<li">15st digistive</li>`;
-// const toBottom = document.querySelector('.to-bottom');
+const newLiDig = document.createElement("li"); 
+newLiDig.appendChild(document.createTextNode("15st digistivetex"));
+const newLiButter = document.createElement("li"); 
+newLiButter.appendChild(document.createTextNode("Lite smör"));
 
-// toBottom.insertAdjacentHTML('beforeend', 'newLiDigistive');
-// Create the second new <p> element
+ingredientsListBottom.appendChild(newLiDig);
+ingredientsListBottom.appendChild(newLiButter);
 
-// const itemToRemove = ingredientsContainer;
 // 10. The third ingredient in the list of ingredients to the paste is wrong. Change that specific ingredient to the correct one.
 // 11. There is also a missing ingredient in the list of ingredients to the paste. Look and see what it is and add that one the the end of the list.
 // 12. The text "Instructions" to the left, beneath the image, has some shadow styling applied to it. Remove that styling.
