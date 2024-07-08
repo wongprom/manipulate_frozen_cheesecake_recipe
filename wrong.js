@@ -15,6 +15,9 @@ const recipeName = document.querySelector('#recipe-name');
 recipeName.innerText = 'Frozen Cheescake';
 
 // 5. The clock icon beneath the recipe name has disappeared and been replaced by a text instead. This can be fixed by adding a class to that element.
+const timeContainer = document.querySelector('.time-container');
+timeContainer.firstElementChild.classList.add('material-icons');
+
 // 6. The estimated time of the recipe is also incorrect. Change it to the correct time estimation.
 // 7. The src path to the image is wrong, or atleast it's showing the wrong image. Change it to the correct one. The available images can be found in the assets folder.
 // 8. The background color of the ingredients list container is wrong. Fix it.
