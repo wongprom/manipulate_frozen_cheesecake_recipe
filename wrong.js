@@ -51,7 +51,9 @@ ingredientsListBottom.appendChild(newLiButter);
 const ingredientsListPaste = document.querySelector(".ingredients-list-paste")
 const third = ingredientsListPaste.children[2].innerHTML = "3tsk vaniljsocker"
 
-console.log(third)
 // 11. There is also a missing ingredient in the list of ingredients to the paste. Look and see what it is and add that one the the end of the list.
+const newLiLostIngredient = document.createElement("li"); 
+newLiLostIngredient.appendChild(document.createTextNode("400g naturell philadelphiaost"));
+ingredientsListPaste.appendChild(newLiLostIngredient)
 // 12. The text "Instructions" to the left, beneath the image, has some shadow styling applied to it. Remove that styling.
 // 13. Two list elements of the list of instructions are incorrect. Find them and change them to the correct ones.
