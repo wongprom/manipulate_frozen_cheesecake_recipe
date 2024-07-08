@@ -56,4 +56,7 @@ const newLiLostIngredient = document.createElement("li");
 newLiLostIngredient.appendChild(document.createTextNode("400g naturell philadelphiaost"));
 ingredientsListPaste.appendChild(newLiLostIngredient)
 // 12. The text "Instructions" to the left, beneath the image, has some shadow styling applied to it. Remove that styling.
+
+const h3Instructions = document.querySelector(".instructions")
+h3Instructions.classList.remove("shadow")
 // 13. Two list elements of the list of instructions are incorrect. Find them and change them to the correct ones.
