@@ -60,3 +60,6 @@ ingredientsListPaste.appendChild(newLiLostIngredient)
 const h3Instructions = document.querySelector(".instructions")
 h3Instructions.classList.remove("shadow")
 // 13. Two list elements of the list of instructions are incorrect. Find them and change them to the correct ones.
+const instructionsList = document.querySelector(".instructions-list")
+const instructionsListSecondItem = instructionsList.children[1].innerText="Separera ägggulor och äggvitor. Äggvitorna lägger du i en stor bunke, äggulorna i en liten bunke."
+const instructionsListNinthItem = instructionsList.children[8].innerText="Ställ in i frysen över natten."
