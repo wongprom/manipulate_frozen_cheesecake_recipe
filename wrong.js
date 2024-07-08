@@ -5,6 +5,7 @@ const recipeName = document.querySelector('#recipe-name');
 const header = document.querySelector('header');
 const timeContainer = document.querySelector('.time-container');
 const imageContainer = document.querySelector('.image-container');
+const ingredientsContainer = document.querySelector('.ingredients-container');
 
 //? 1. The logo text of the site has the wrong color. Change it to the correct one.
 logoText.style.color = '#384241';
@@ -29,6 +30,8 @@ const test = imageContainer.querySelector('img');
 test.setAttribute('src', 'assets/frozen-cheesecake-slice.jpg');
 
 // 8. The background color of the ingredients list container is wrong. Fix it.
+ingredientsContainer.style.backgroundColor = '#f9f9f9';
+
 // 9. The ingredients are divided in to two parts, one for the bottom and one for the paste. In the list of the ingredients to the bottom, there is a text instead of two list items. Remove the text and add those two list items.
 // 10. The third ingredient in the list of ingredients to the paste is wrong. Change that specific ingredient to the correct one.
 // 11. There is also a missing ingredient in the list of ingredients to the paste. Look and see what it is and add that one the the end of the list.
