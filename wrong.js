@@ -33,6 +33,20 @@ test.setAttribute('src', 'assets/frozen-cheesecake-slice.jpg');
 ingredientsContainer.style.backgroundColor = '#f9f9f9';
 
 // 9. The ingredients are divided in to two parts, one for the bottom and one for the paste. In the list of the ingredients to the bottom, there is a text instead of two list items. Remove the text and add those two list items.
+const ingredientsListBottom = document.querySelector(
+  '.ingredients-list-bottom'
+);
+const removeThisP = ingredientsListBottom.querySelector('p');
+ingredientsListBottom.removeChild(removeThisP);
+
+// Create the first new <p> element
+// const newLiDigistive = `<li">15st digistive</li>`;
+// const toBottom = document.querySelector('.to-bottom');
+
+// toBottom.insertAdjacentHTML('beforeend', 'newLiDigistive');
+// Create the second new <p> element
+
+// const itemToRemove = ingredientsContainer;
 // 10. The third ingredient in the list of ingredients to the paste is wrong. Change that specific ingredient to the correct one.
 // 11. There is also a missing ingredient in the list of ingredients to the paste. Look and see what it is and add that one the the end of the list.
 // 12. The text "Instructions" to the left, beneath the image, has some shadow styling applied to it. Remove that styling.
